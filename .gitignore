@@ -1,0 +1,18 @@
+# Rust build directories
+target/
+target_local/
+Cargo.lock
+
+# Node.js dependencies and build files
+frontend/node_modules/
+frontend/dist/
+frontend/package-lock.json
+
+# Local envs / IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
