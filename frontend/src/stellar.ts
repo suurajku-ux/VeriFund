@@ -140,11 +140,11 @@ function milestoneToScVal(m: { milestone_id: number, title: string, amount: numb
     }),
     new StellarSdk.xdr.ScMapEntry({
       key: StellarSdk.nativeToScVal('proof_submitted', { type: 'symbol' }),
-      val: StellarSdk.nativeToScVal(false, { type: 'bool' })
+      val: StellarSdk.nativeToScVal(false)
     }),
     new StellarSdk.xdr.ScMapEntry({
       key: StellarSdk.nativeToScVal('released', { type: 'symbol' }),
-      val: StellarSdk.nativeToScVal(false, { type: 'bool' })
+      val: StellarSdk.nativeToScVal(false)
     }),
     new StellarSdk.xdr.ScMapEntry({
       key: StellarSdk.nativeToScVal('title', { type: 'symbol' }),
