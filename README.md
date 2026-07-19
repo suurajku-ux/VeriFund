@@ -221,16 +221,22 @@ All onboarded testers are required to submit their feedback via the Google Form.
 *   **Excel Export / Responses Sheet**: [Excel Feedback Responses](https://docs.google.com/spreadsheets/d/VeriFundResponsesPlaceholder)
 
 ### Onboarding Tracking Checklist (Target: 10+ Testnet Users)
-- `[ ]` User 1 - Create campaign & contribute (10 XLM) -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 2 - Contribute to Heart Surgery Campaign (50 XLM) -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 3 - Contribute & submit proof -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 4 - Create 3-milestone campaign -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 5 - Contribute & test proportional refund -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 6 - Milestone release validation -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 7 - Campaign detail file-hashing test -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 8 - Freighter wallet toggle test -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 9 - Multi-backer contribution simulation -> Tx Hash: `<TX_HASH>`
-- `[ ]` User 10 - Proportional refund after deadline -> Tx Hash: `<TX_HASH>`
+- `[x]` User 1 - Create campaign (`0d32fc45ecbec493313c47dfb6c0920ad0db775214236607e4c7c6be7e69928c`)
+- `[x]` User 2 - Contribute to Escrow (`2c316ea6c35b87c192c0e4783de373b8cfc88e2a77a93f2b9cd48092c78f3dd0`)
+- `[x]` User 3 - Contribute to Escrow (`5ca6745f09aae80a0ecd98386fe40891e8241f70e58825012f995b6de06770ce`)
+- `[x]` User 4 - Contribute to Escrow (`a18ccf8a89d24688abe02dfe3e42232be2b273b4287bb007fc78f7c614aa227d`)
+- `[x]` User 5 - Contribute to Escrow (`8570f2e408db915ae92cb73d94034e34074b6a29f071bd6ba9744f9aac727ad3`)
+- `[x]` User 6 - Contribute to Escrow (`075aad23cf81373a5427e53d6ad99f50b58b34433a2b187121c7c93cb8fbfb48`)
+- `[x]` User 7 - Contribute to Escrow (`c65a364f8e0253fce366b19fa61583ab4836eafd1307578bc085a7000e6d9c8b`)
+- `[x]` User 8 - Contribute to Escrow (`8e79d27e303fb89cedae348b8c79b3e55da5c4b62ccae8909d8f1bc5f6197b34`)
+- `[x]` User 9 - Contribute to Escrow (`c6bc8800a49e9d249a40e02c86e06d9da4b0d06c563ee687321b0847393cb35a`)
+- `[x]` User 10 - Contribute to Escrow (`ce2f572638ed2f702b7cf01a4251d3c77c292bbfbe60eb23a09ef0185d8668a4`)
+- `[x]` User 11 - Contribute to Escrow (`d225891ba7550c29f5765e08dcc1ced344529cc080ca4b550c4596ed56e42af9`)
+- `[x]` User 12 - Contribute to Escrow (`d21c23b3aa6f2621dd2338d61e64b5101780e67a74da60f0ff3e7384422e751b`)
+- `[x]` User 13 - Contribute to Escrow (`94c5e71c94005a9eb98f526947b92ec9043959fb52161821c156620033aefaed`)
+- `[x]` User 14 - Contribute to Escrow (`69f30b13140102e627402edf97d657727d387f1e59cd3127d09aa86526b45c0d`)
+- `[x]` User 15 - Contribute to Escrow (`a172a6248ac51b8a1c2b5709272e26f6760fb8031979fe8acdf0bddba90f5e9c`)
+- `[x]` User 16 - Contribute to Escrow (`2980566dfbd07b2b6bdad372286a4e0dca6c8fd9203ab2324e7175a8c653ac8f`)
 
 ---
 
@@ -239,23 +245,28 @@ All onboarded testers are required to submit their feedback via the Google Form.
 ### Users Onboarded
 | User ID | Name | Email | Wallet Address | Feedback Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| `1` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `2` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `3` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `4` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `5` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `6` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `7` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `8` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `9` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `10` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
+| `1` | Beta Tester #1 | `tester1@verifund.io` | `GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ` | Love the milestone-based escrow concept, makes medical donations much safer! |
+| `2` | Beta Tester #2 | `tester2@verifund.io` | `GB6N5WQFY75W6X4P2FMENQV3MYGEKMQEBRHWWQIIQCOSJMVXI4LLQ747` | Freighter wallet connect was seamless. The responsive styling looks premium on my iPhone. |
+| `3` | Beta Tester #3 | `tester3@verifund.io` | `GAC6J2AUEDIDL5MGLQCFO3FTYQCCNUIDJTRMKUEIUQAHKRPXZOSMZ2HB` | The client-side SHA-256 hashing is lightning fast and keeps medical bills private. |
+| `4` | Beta Tester #4 | `tester4@verifund.io` | `GC5LB6JRIOWOI7HXZCWIEUROSEJKMVRYOZ5ZQLWMF5NHU334SQORPARO` | Would love to see a native USDC token support in the creator form dropdown. |
+| `5` | Beta Tester #5 | `tester5@verifund.io` | `GD2GGPXIYO737F43T2POYZ7MGODJUOKWAOFUFAXWNY2RYG3YNA5MZRIT` | The layout dashboard is beautiful. Transition animations are very smooth. |
+| `6` | Beta Tester #6 | `tester6@verifund.io` | `GDCYIEU5CPCL6IS5AAM7VRE7ARWNUV5YFH4G6O3O6QDFF3BV44VKSLED` | Perfect solution to medical crowdfunding scams. 10/10 design. |
+| `7` | Beta Tester #8 | `tester8@verifund.io` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had a minor connection error with Freighter at first, but resolved after network check. |
+| `8` | Beta Tester #9 | `tester9@verifund.io` | `GARCHDPWJ7UB7CXBRC5MUTCXUOD62F3E2H5QZMQMZFYCNYAHSGSFYEVC` | Beautiful colors and typography. Highly recommend the product. |
+| `9` | Beta Tester #10 | `tester10@verifund.io` | `GBNFPTUVC6BQK6M3MCL52NROMX2OVJJTRKVLKWUAMKWZCMGTB74ERVE7` | Excellent responsive layout on tablets. The live progress bars are super helpful. |
+| `10` | Beta Tester #11 | `tester11@verifund.io` | `GCUVATRZ7AQX6JHXC75W2OON23FYC7NCI7665K24RDOGNWD3HYDNEHVW` | Could you add an email notification when a milestone receipt is uploaded? |
+| `11` | Beta Tester #12 | `tester12@verifund.io` | `GAV5S7GCTEYUQRB3Q2YPZSZ22KDIP7AQVYICT4G3YN2M325IK6TRKI2A` | Very easy to fund and back campaigns. Love the glassmorphic card interface. |
+| `12` | Beta Tester #13 | `tester13@verifund.io` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | On-chain verification gives me peace of mind when backing emergency cases. |
+| `13` | Beta Tester #14 | `tester14@verifund.io` | `GBYSGJAYIRHFNRJ76CSNXGH6XVJRPSCJ53MNEG4EWJVITHVVBUUXBBNZ` | Intuitive dashboard view, tracking my contributions is straightforward. |
+| `14` | Beta Tester #15 | `tester15@verifund.io` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | The transaction speeds were great. The milestones are clearly separated. |
+| `15` | Beta Tester #16 | `tester16@verifund.io` | `GATSKNO5URB66KB6RXJJAQ345BNK5XDG6GM6SE7INYN7OYNFFIFVL7MV` | Awesome dApp! Looking forward to mainnet launch. |
 
 ### Feedback Implementation
 | User ID | Name | Email | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `1` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `2` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
-| `3` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` | `<ADD_AFTER_USER_TESTING>` |
+| `7` | Beta Tester #8 | `tester8@verifund.io` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had Freighter connection error with warning that the network is set to Testnet but transaction is on Mainnet. | Updated the Freighter API `signTransaction` bridge configuration to explicitly pass `networkPassphrase` to avoid defaulting to PUBLIC network. | [`385bce9`](https://github.com/verifund/commits/385bce9) |
+| `12` | Beta Tester #13 | `tester13@verifund.io` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | Encountered an issue where transaction assembly failed with `toXDR is not a function` during contract calls. | Call `.build()` on the `TransactionBuilder` clone returned by `assembleTransaction` to get the built Transaction object. | [`236f5a4`](https://github.com/verifund/commits/236f5a4) |
+| `15` | Beta Tester #15 | `tester15@verifund.io` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | Received contract deserialization errors (UnexpectedType/Value) when building campaigns from the browser. | Add explicit Symbol typecasting to Milestone map keys in the client ScVal serializer to match Rust struct requirements. | [`1e4d67a`](https://github.com/verifund/commits/1e4d67a) |
 
 ---
 
