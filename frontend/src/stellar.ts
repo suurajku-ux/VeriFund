@@ -33,9 +33,10 @@ export interface Contribution {
 }
 
 const SOROBAN_RPC_URL = 'https://soroban-testnet.stellar.org';
+const XLM_DECIMALS = 10000000; // 1 XLM = 10,000,000 Stroops (7 decimals)
 
 // Deployed contract ID on Testnet (overwritten by deploy.sh)
-let CONTRACT_ID = 'CBK7BZDQDQDQDQDQDQDQDQDQDQDQDQDQDQDQDQDQDQDQDQDQDQVERIFUND';
+let CONTRACT_ID = 'CARPVR6XIJJCLSOOCP45K7GS4NXQJWYYYP4U4HX2JLRV5RLT55D6FHUT';
 try {
   // @ts-ignore
   import('./contract_address.json').then((module) => {
@@ -47,15 +48,13 @@ try {
   // ignore
 }
 
-// Check if we are in Simulation Mode or Live Mode
+// Simulation Mode is deactivated
 export const getUseSimulation = (): boolean => {
-  const val = localStorage.getItem('verifund_sim_mode');
-  return val === null ? false : val === 'true'; // Default to Live Soroban mode!
+  return false; // Force Live Mode ONLY
 };
 
 export const setUseSimulation = (useSim: boolean) => {
-  localStorage.setItem('verifund_sim_mode', useSim ? 'true' : 'false');
-  window.location.reload();
+  // no-op
 };
 
 // Seed initial campaigns for simulation mode to give a rich UI out of the box
@@ -130,28 +129,28 @@ const saveSimContributions = (contribs: Contribution[]) => {
 // Helper to convert Milestone to ScVal structure
 function milestoneToScVal(m: { milestone_id: number, title: string, amount: number }) {
   // Sort keys alphabetically: amount, milestone_id, proof_submitted, released, title
-  return StellarSdk.xdr.ScVal.scvMap(new (StellarSdk.xdr.ScMap as any)([
-    new (StellarSdk.xdr.ScMapEntry as any)({
+  return StellarSdk.xdr.ScVal.scvMap([
+    new StellarSdk.xdr.ScMapEntry({
       key: StellarSdk.nativeToScVal('amount'),
       val: StellarSdk.nativeToScVal(BigInt(m.amount), { type: 'i128' })
     }),
-    new (StellarSdk.xdr.ScMapEntry as any)({
+    new StellarSdk.xdr.ScMapEntry({
       key: StellarSdk.nativeToScVal('milestone_id'),
       val: StellarSdk.nativeToScVal(m.milestone_id, { type: 'u32' })
     }),
-    new (StellarSdk.xdr.ScMapEntry as any)({
+    new StellarSdk.xdr.ScMapEntry({
       key: StellarSdk.nativeToScVal('proof_submitted'),
       val: StellarSdk.nativeToScVal(false, { type: 'bool' })
     }),
-    new (StellarSdk.xdr.ScMapEntry as any)({
+    new StellarSdk.xdr.ScMapEntry({
       key: StellarSdk.nativeToScVal('released'),
       val: StellarSdk.nativeToScVal(false, { type: 'bool' })
     }),
-    new (StellarSdk.xdr.ScMapEntry as any)({
+    new StellarSdk.xdr.ScMapEntry({
       key: StellarSdk.nativeToScVal('title'),
       val: StellarSdk.nativeToScVal(m.title, { type: 'string' })
     })
-  ]));
+  ]);
 }
 
 // Helper to call read-only Soroban contract functions via simulation
@@ -205,7 +204,16 @@ async function submitSorobanTransaction(funcName: string, args: StellarSdk.xdr.S
   const sim = await server.simulateTransaction(tx);
   const simAny = sim as any;
   if (!simAny.result) {
-    throw new Error(`Simulation failed for transaction ${funcName}. Check Freighter network or balance.`);
+    console.error("Simulation failed response:", sim);
+    let details = "";
+    if (simAny.error) {
+      details = simAny.error;
+    } else if (simAny.events) {
+      details = JSON.stringify(simAny.events);
+    } else {
+      details = JSON.stringify(simAny);
+    }
+    throw new Error(`Simulation failed for transaction ${funcName}. Details: ${details}`);
   }
 
   // Assemble footprint into tx
@@ -306,13 +314,13 @@ export const StellarService = {
             title: localMeta.title || `Campaign #${id}`,
             description: localMeta.description || `Milestone-based medical fundraising escrow campaign #${id} deployed on Stellar.`,
             category: localMeta.category || 'Medical',
-            goal_amount: Number(nativeCampaign.goal_amount),
-            total_raised: Number(nativeCampaign.total_raised),
+            goal_amount: Number(nativeCampaign.goal_amount) / XLM_DECIMALS,
+            total_raised: Number(nativeCampaign.total_raised) / XLM_DECIMALS,
             deadline: Number(nativeCampaign.deadline),
             milestones: nativeCampaign.milestones.map((m: any) => ({
               milestone_id: Number(m.milestone_id),
               title: m.title.toString(),
-              amount: Number(m.amount),
+              amount: Number(m.amount) / XLM_DECIMALS,
               proof_submitted: !!m.proof_submitted,
               released: !!m.released
             })),
@@ -377,12 +385,12 @@ export const StellarService = {
       const milestoneVec = StellarSdk.xdr.ScVal.scvVec(milestones.map((m, idx) => milestoneToScVal({
         milestone_id: idx + 1,
         title: m.title,
-        amount: m.amount
+        amount: m.amount * XLM_DECIMALS
       })));
 
       const args = [
         StellarSdk.nativeToScVal(creator, { type: 'address' }),
-        StellarSdk.nativeToScVal(BigInt(goal), { type: 'i128' }),
+        StellarSdk.nativeToScVal(BigInt(goal * XLM_DECIMALS), { type: 'i128' }),
         StellarSdk.nativeToScVal(BigInt(deadlineSecs), { type: 'u64' }),
         milestoneVec
       ];
@@ -433,7 +441,7 @@ export const StellarService = {
       const args = [
         StellarSdk.nativeToScVal(BigInt(campaignId), { type: 'u64' }),
         StellarSdk.nativeToScVal(backer, { type: 'address' }),
-        StellarSdk.nativeToScVal(BigInt(amount), { type: 'i128' })
+        StellarSdk.nativeToScVal(BigInt(amount * XLM_DECIMALS), { type: 'i128' })
       ];
       return await submitSorobanTransaction('contribute', args);
     } catch (e) {
@@ -466,7 +474,6 @@ export const StellarService = {
 
     // Soroban Live submit proof call
     try {
-      // Convert SHA-256 Hex string back to BytesN<32>
       const hashBytes = Buffer.from(fileHash, 'hex');
       const proofSc = StellarSdk.xdr.ScVal.scvBytes(hashBytes);
 
@@ -617,7 +624,7 @@ export const StellarService = {
             StellarSdk.nativeToScVal(BigInt(c.id), { type: 'u64' }),
             StellarSdk.nativeToScVal(backer, { type: 'address' })
           ]);
-          const contribAmt = Number(amount);
+          const contribAmt = Number(amount) / XLM_DECIMALS;
           if (contribAmt > 0) {
             results.push({
               campaign: c,
