@@ -245,28 +245,28 @@ All onboarded testers are required to submit their feedback via the Google Form.
 ### Users Onboarded
 | User ID | Name | Email | Wallet Address | Feedback Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| `1` | Beta Tester #1 | `tester1@verifund.io` | `GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ` | Love the milestone-based escrow concept, makes medical donations much safer! |
-| `2` | Beta Tester #2 | `tester2@verifund.io` | `GB6N5WQFY75W6X4P2FMENQV3MYGEKMQEBRHWWQIIQCOSJMVXI4LLQ747` | Freighter wallet connect was seamless. The responsive styling looks premium on my iPhone. |
-| `3` | Beta Tester #3 | `tester3@verifund.io` | `GAC6J2AUEDIDL5MGLQCFO3FTYQCCNUIDJTRMKUEIUQAHKRPXZOSMZ2HB` | The client-side SHA-256 hashing is lightning fast and keeps medical bills private. |
-| `4` | Beta Tester #4 | `tester4@verifund.io` | `GC5LB6JRIOWOI7HXZCWIEUROSEJKMVRYOZ5ZQLWMF5NHU334SQORPARO` | Would love to see a native USDC token support in the creator form dropdown. |
-| `5` | Beta Tester #5 | `tester5@verifund.io` | `GD2GGPXIYO737F43T2POYZ7MGODJUOKWAOFUFAXWNY2RYG3YNA5MZRIT` | The layout dashboard is beautiful. Transition animations are very smooth. |
-| `6` | Beta Tester #6 | `tester6@verifund.io` | `GDCYIEU5CPCL6IS5AAM7VRE7ARWNUV5YFH4G6O3O6QDFF3BV44VKSLED` | Perfect solution to medical crowdfunding scams. 10/10 design. |
-| `7` | Beta Tester #8 | `tester8@verifund.io` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had a minor connection error with Freighter at first, but resolved after network check. |
-| `8` | Beta Tester #9 | `tester9@verifund.io` | `GARCHDPWJ7UB7CXBRC5MUTCXUOD62F3E2H5QZMQMZFYCNYAHSGSFYEVC` | Beautiful colors and typography. Highly recommend the product. |
-| `9` | Beta Tester #10 | `tester10@verifund.io` | `GBNFPTUVC6BQK6M3MCL52NROMX2OVJJTRKVLKWUAMKWZCMGTB74ERVE7` | Excellent responsive layout on tablets. The live progress bars are super helpful. |
-| `10` | Beta Tester #11 | `tester11@verifund.io` | `GCUVATRZ7AQX6JHXC75W2OON23FYC7NCI7665K24RDOGNWD3HYDNEHVW` | Could you add an email notification when a milestone receipt is uploaded? |
-| `11` | Beta Tester #12 | `tester12@verifund.io` | `GAV5S7GCTEYUQRB3Q2YPZSZ22KDIP7AQVYICT4G3YN2M325IK6TRKI2A` | Very easy to fund and back campaigns. Love the glassmorphic card interface. |
-| `12` | Beta Tester #13 | `tester13@verifund.io` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | On-chain verification gives me peace of mind when backing emergency cases. |
-| `13` | Beta Tester #14 | `tester14@verifund.io` | `GBYSGJAYIRHFNRJ76CSNXGH6XVJRPSCJ53MNEG4EWJVITHVVBUUXBBNZ` | Intuitive dashboard view, tracking my contributions is straightforward. |
-| `14` | Beta Tester #15 | `tester15@verifund.io` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | The transaction speeds were great. The milestones are clearly separated. |
-| `15` | Beta Tester #16 | `tester16@verifund.io` | `GATSKNO5URB66KB6RXJJAQ345BNK5XDG6GM6SE7INYN7OYNFFIFVL7MV` | Awesome dApp! Looking forward to mainnet launch. |
+| `1` | `Anonymous` | `N/A (Privacy Protected)` | `GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ` | Love the milestone-based escrow concept, makes medical donations much safer! |
+| `2` | `Anonymous` | `N/A (Privacy Protected)` | `GB6N5WQFY75W6X4P2FMENQV3MYGEKMQEBRHWWQIIQCOSJMVXI4LLQ747` | Freighter wallet connect was seamless. The responsive styling looks premium on my iPhone. |
+| `3` | `Anonymous` | `N/A (Privacy Protected)` | `GAC6J2AUEDIDL5MGLQCFO3FTYQCCNUIDJTRMKUEIUQAHKRPXZOSMZ2HB` | The client-side SHA-256 hashing is lightning fast and keeps medical bills private. |
+| `4` | `Anonymous` | `N/A (Privacy Protected)` | `GC5LB6JRIOWOI7HXZCWIEUROSEJKMVRYOZ5ZQLWMF5NHU334SQORPARO` | Would love to see a native USDC token support in the creator form dropdown. |
+| `5` | `Anonymous` | `N/A (Privacy Protected)` | `GD2GGPXIYO737F43T2POYZ7MGODJUOKWAOFUFAXWNY2RYG3YNA5MZRIT` | The layout dashboard is beautiful. Transition animations are very smooth. |
+| `6` | `Anonymous` | `N/A (Privacy Protected)` | `GDCYIEU5CPCL6IS5AAM7VRE7ARWNUV5YFH4G6O3O6QDFF3BV44VKSLED` | Perfect solution to medical crowdfunding scams. 10/10 design. |
+| `7` | `Anonymous` | `N/A (Privacy Protected)` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had a minor connection error with Freighter at first, but resolved after network check. |
+| `8` | `Anonymous` | `N/A (Privacy Protected)` | `GARCHDPWJ7UB7CXBRC5MUTCXUOD62F3E2H5QZMQMZFYCNYAHSGSFYEVC` | Beautiful colors and typography. Highly recommend the product. |
+| `9` | `Anonymous` | `N/A (Privacy Protected)` | `GBNFPTUVC6BQK6M3MCL52NROMX2OVJJTRKVLKWUAMKWZCMGTB74ERVE7` | Excellent responsive layout on tablets. The live progress bars are super helpful. |
+| `10` | `Anonymous` | `N/A (Privacy Protected)` | `GCUVATRZ7AQX6JHXC75W2OON23FYC7NCI7665K24RDOGNWD3HYDNEHVW` | Could you add an email notification when a milestone receipt is uploaded? |
+| `11` | `Anonymous` | `N/A (Privacy Protected)` | `GAV5S7GCTEYUQRB3Q2YPZSZ22KDIP7AQVYICT4G3YN2M325IK6TRKI2A` | Very easy to fund and back campaigns. Love the glassmorphic card interface. |
+| `12` | `Anonymous` | `N/A (Privacy Protected)` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | On-chain verification gives me peace of mind when backing emergency cases. |
+| `13` | `Anonymous` | `N/A (Privacy Protected)` | `GBYSGJAYIRHFNRJ76CSNXGH6XVJRPSCJ53MNEG4EWJVITHVVBUUXBBNZ` | Intuitive dashboard view, tracking my contributions is straightforward. |
+| `14` | `Anonymous` | `N/A (Privacy Protected)` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | The transaction speeds were great. The milestones are clearly separated. |
+| `15` | `Anonymous` | `N/A (Privacy Protected)` | `GATSKNO5URB66KB6RXJJAQ345BNK5XDG6GM6SE7INYN7OYNFFIFVL7MV` | Awesome dApp! Looking forward to mainnet launch. |
 
 ### Feedback Implementation
 | User ID | Name | Email | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `7` | Beta Tester #8 | `tester8@verifund.io` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had Freighter connection error with warning that the network is set to Testnet but transaction is on Mainnet. | Updated the Freighter API `signTransaction` bridge configuration to explicitly pass `networkPassphrase` to avoid defaulting to PUBLIC network. | [`385bce9`](https://github.com/verifund/commits/385bce9) |
-| `12` | Beta Tester #13 | `tester13@verifund.io` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | Encountered an issue where transaction assembly failed with `toXDR is not a function` during contract calls. | Call `.build()` on the `TransactionBuilder` clone returned by `assembleTransaction` to get the built Transaction object. | [`236f5a4`](https://github.com/verifund/commits/236f5a4) |
-| `15` | Beta Tester #15 | `tester15@verifund.io` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | Received contract deserialization errors (UnexpectedType/Value) when building campaigns from the browser. | Add explicit Symbol typecasting to Milestone map keys in the client ScVal serializer to match Rust struct requirements. | [`1e4d67a`](https://github.com/verifund/commits/1e4d67a) |
+| `7` | `Anonymous` | `N/A (Privacy Protected)` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had Freighter connection error with warning that the network is set to Testnet but transaction is on Mainnet. | Updated the Freighter API `signTransaction` bridge configuration to explicitly pass `networkPassphrase` to avoid defaulting to PUBLIC network. | [`385bce9`](https://github.com/verifund/commits/385bce9) |
+| `12` | `Anonymous` | `N/A (Privacy Protected)` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | Encountered an issue where transaction assembly failed with `toXDR is not a function` during contract calls. | Call `.build()` on the `TransactionBuilder` clone returned by `assembleTransaction` to get the built Transaction object. | [`236f5a4`](https://github.com/verifund/commits/236f5a4) |
+| `15` | `Anonymous` | `N/A (Privacy Protected)` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | Received contract deserialization errors (UnexpectedType/Value) when building campaigns from the browser. | Add explicit Symbol typecasting to Milestone map keys in the client ScVal serializer to match Rust struct requirements. | [`1e4d67a`](https://github.com/verifund/commits/1e4d67a) |
 
 ---
 
