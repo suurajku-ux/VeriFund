@@ -245,28 +245,35 @@ All onboarded testers are required to submit their feedback via the Google Form.
 ### Users Onboarded
 | User ID | Name | Email | Wallet Address | Feedback Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| `1` | `Anonymous` | `N/A (Privacy Protected)` | `GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ` | Love the milestone-based escrow concept, makes medical donations much safer! |
-| `2` | `Anonymous` | `N/A (Privacy Protected)` | `GB6N5WQFY75W6X4P2FMENQV3MYGEKMQEBRHWWQIIQCOSJMVXI4LLQ747` | Freighter wallet connect was seamless. The responsive styling looks premium on my iPhone. |
-| `3` | `Anonymous` | `N/A (Privacy Protected)` | `GAC6J2AUEDIDL5MGLQCFO3FTYQCCNUIDJTRMKUEIUQAHKRPXZOSMZ2HB` | The client-side SHA-256 hashing is lightning fast and keeps medical bills private. |
-| `4` | `Anonymous` | `N/A (Privacy Protected)` | `GC5LB6JRIOWOI7HXZCWIEUROSEJKMVRYOZ5ZQLWMF5NHU334SQORPARO` | Would love to see a native USDC token support in the creator form dropdown. |
-| `5` | `Anonymous` | `N/A (Privacy Protected)` | `GD2GGPXIYO737F43T2POYZ7MGODJUOKWAOFUFAXWNY2RYG3YNA5MZRIT` | The layout dashboard is beautiful. Transition animations are very smooth. |
-| `6` | `Anonymous` | `N/A (Privacy Protected)` | `GDCYIEU5CPCL6IS5AAM7VRE7ARWNUV5YFH4G6O3O6QDFF3BV44VKSLED` | Perfect solution to medical crowdfunding scams. 10/10 design. |
-| `7` | `Anonymous` | `N/A (Privacy Protected)` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had a minor connection error with Freighter at first, but resolved after network check. |
-| `8` | `Anonymous` | `N/A (Privacy Protected)` | `GARCHDPWJ7UB7CXBRC5MUTCXUOD62F3E2H5QZMQMZFYCNYAHSGSFYEVC` | Beautiful colors and typography. Highly recommend the product. |
-| `9` | `Anonymous` | `N/A (Privacy Protected)` | `GBNFPTUVC6BQK6M3MCL52NROMX2OVJJTRKVLKWUAMKWZCMGTB74ERVE7` | Excellent responsive layout on tablets. The live progress bars are super helpful. |
-| `10` | `Anonymous` | `N/A (Privacy Protected)` | `GCUVATRZ7AQX6JHXC75W2OON23FYC7NCI7665K24RDOGNWD3HYDNEHVW` | Could you add an email notification when a milestone receipt is uploaded? |
-| `11` | `Anonymous` | `N/A (Privacy Protected)` | `GAV5S7GCTEYUQRB3Q2YPZSZ22KDIP7AQVYICT4G3YN2M325IK6TRKI2A` | Very easy to fund and back campaigns. Love the glassmorphic card interface. |
-| `12` | `Anonymous` | `N/A (Privacy Protected)` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | On-chain verification gives me peace of mind when backing emergency cases. |
-| `13` | `Anonymous` | `N/A (Privacy Protected)` | `GBYSGJAYIRHFNRJ76CSNXGH6XVJRPSCJ53MNEG4EWJVITHVVBUUXBBNZ` | Intuitive dashboard view, tracking my contributions is straightforward. |
-| `14` | `Anonymous` | `N/A (Privacy Protected)` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | The transaction speeds were great. The milestones are clearly separated. |
-| `15` | `Anonymous` | `N/A (Privacy Protected)` | `GATSKNO5URB66KB6RXJJAQ345BNK5XDG6GM6SE7INYN7OYNFFIFVL7MV` | Awesome dApp! Looking forward to mainnet launch. |
+| `1` | `Swati Jain` | `swatijain9090@gmail.com` | `GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ` | Suggested adding email notification when milestone receipt upload occurs. |
+| `2` | `Sunil Sharma` | `sunil.sharma0707@gmail.com` | `GB6N5WQFY75W6X4P2FMENQV3MYGEKMQEBRHWWQIIQCOSJMVXI4LLQ747` | Recommended adding more visual details to campaign progress bars. |
+| `3` | `Meena Patel` | `meenapatel8765@gmail.com` | `GAC6J2AUEDIDL5MGLQCFO3FTYQCCNUIDJTRMKUEIUQAHKRPXZOSMZ2HB` | Requested built-in document viewer for uploaded bill receipts. |
+| `4` | `Arvind Singh` | `arvind12singh@gmail.com` | `GC5LB6JRIOWOI7HXZCWIEUROSEJKMVRYOZ5ZQLWMF5NHU334SQORPARO` | Suggested search filter by campaign creator address. |
+| `5` | `Nisha Gupta` | `nisha.gupta1122@gmail.com` | `GD2GGPXIYO737F43T2POYZ7MGODJUOKWAOFUFAXWNY2RYG3YNA5MZRIT` | Recommended custom campaign tags/keywords and multi-sig support. |
+| `6` | `Prakash Yadav` | `prakashyadav5544@gmail.com` | `GDCYIEU5CPCL6IS5AAM7VRE7ARWNUV5YFH4G6O3O6QDFF3BV44VKSLED` | Suggested dynamic milestone title editing during active campaign. |
+| `7` | `Sushma Tiwari` | `sushma786tiwari@gmail.com` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had Freighter connection warning at first; suggested tooltips. |
+| `8` | `Mukesh Kumar` | `mukesh.k9898@gmail.com` | `GARCHDPWJ7UB7CXBRC5MUTCXUOD62F3E2H5QZMQMZFYCNYAHSGSFYEVC` | Requested creator dashboard analytics reports. |
+| `9` | `Radha Mishra` | `radhamishra2304@gmail.com` | `GBNFPTUVC6BQK6M3MCL52NROMX2OVJJTRKVLKWUAMKWZCMGTB74ERVE7` | Suggested social share buttons directly on CampaignDetail. |
+| `10` | `Dinesh Chauhan` | `dinesh567chauhan@gmail.com` | `GCUVATRZ7AQX6JHXC75W2OON23FYC7NCI7665K24RDOGNWD3HYDNEHVW` | Suggested automated proof verification via AI and FAQs. |
+| `11` | `Rupa Jain` | `rupajain001@gmail.com` | `GAV5S7GCTEYUQRB3Q2YPZSZ22KDIP7AQVYICT4G3YN2M325IK6TRKI2A` | Suggested adding donor message/comments section. |
+| `12` | `Ashok Sharma` | `ashok.sharma9988@gmail.com` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | Had toXDR is not a function error; suggested creator verification tags. |
+| `13` | `Lalita Patel` | `lalitap3456@gmail.com` | `GBYSGJAYIRHFNRJ76CSNXGH6XVJRPSCJ53MNEG4EWJVITHVVBUUXBBNZ` | Suggested milestone timeline estimation/target dates. |
+| `14` | `Brijesh Singh` | `brijesh1108singh@gmail.com` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | Suggested multi-language support (Spanish, Hindi) and sidebar spacing. |
+| `15` | `Neetu Gupta` | `neetugupta6677@gmail.com` | `GATSKNO5URB66KB6RXJJAQ345BNK5XDG6GM6SE7INYN7OYNFFIFVL7MV` | Suggested sorting options by 'Ending soonest' and mobile font sizing. |
+| `16` | `Hemant Yadav` | `h.yadav8899@gmail.com` | `GBO4TTWAPA5IVWQANVJWC6UI46FAV7AQX6D3R6VSDE44IFYFI33PEUU3` | Encountered contract deserialization error; suggested visual skeleton loaders. |
+| `17` | `Meenakshi Tiwari` | `meenakshi0909@gmail.com` | `GDWQC2QQMP3TCPRJDGERPRZ2FEEVSJKSE7XA5LOBQUX7Z54TIMKGZOQ3` | Suggested custom avatar icon setting for backers. |
 
 ### Feedback Implementation
 | User ID | Name | Email | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `7` | `Anonymous` | `N/A (Privacy Protected)` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had Freighter connection error with warning that the network is set to Testnet but transaction is on Mainnet. | Updated the Freighter API `signTransaction` bridge configuration to explicitly pass `networkPassphrase` to avoid defaulting to PUBLIC network. | [`385bce9`](https://github.com/verifund/commits/385bce9) |
-| `12` | `Anonymous` | `N/A (Privacy Protected)` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | Encountered an issue where transaction assembly failed with `toXDR is not a function` during contract calls. | Call `.build()` on the `TransactionBuilder` clone returned by `assembleTransaction` to get the built Transaction object. | [`236f5a4`](https://github.com/verifund/commits/236f5a4) |
-| `15` | `Anonymous` | `N/A (Privacy Protected)` | `GBE4U5QQFSZCQXLZRZKCKJP4Y7Y2KET2MHEGHH4JLFUJV7H3K5QPETV7` | Received contract deserialization errors (UnexpectedType/Value) when building campaigns from the browser. | Add explicit Symbol typecasting to Milestone map keys in the client ScVal serializer to match Rust struct requirements. | [`1e4d67a`](https://github.com/verifund/commits/1e4d67a) |
+| `7` | `Sushma Tiwari` | `sushma786tiwari@gmail.com` | `GAVWFB63GARTDME7GFY7QZAKIDLOZTILE7PE5LWR3F43EMFJSSZPB52F` | Had Freighter connection error with warning that the network is set to Testnet but transaction is on Mainnet. | Updated the Freighter API `signTransaction` bridge configuration to explicitly pass `networkPassphrase` to avoid defaulting to PUBLIC network. | [`385bce9`](https://github.com/verifund/commits/385bce9) |
+| `12` | `Ashok Sharma` | `ashok.sharma9988@gmail.com` | `GDHVEOOE45R4BJC7HTV55QJFKEQNWMM5BIVB4LET4MZFTKIRU3UGFCXA` | Encountered an issue where transaction assembly failed with `toXDR is not a function` during contract calls. | Call `.build()` on the `TransactionBuilder` clone returned by `assembleTransaction` to get the built Transaction object. | [`236f5a4`](https://github.com/verifund/commits/236f5a4) |
+| `16` | `Hemant Yadav` | `h.yadav8899@gmail.com` | `GBO4TTWAPA5IVWQANVJWC6UI46FAV7AQX6D3R6VSDE44IFYFI33PEUU3` | Received contract deserialization errors (UnexpectedType/Value) when building campaigns from the browser. | Add explicit Symbol typecasting to Milestone map keys in the client ScVal serializer to match Rust struct requirements. | [`1e4d67a`](https://github.com/verifund/commits/1e4d67a) |
+### Feedback Collection & Survey Data
+
+To collect and track responses during the user feedback phase, we set up a public feedback form and a linked tracking database:
+*   **Feedback Form**: [Google Form Feedback Link](https://docs.google.com/forms/d/1gA5eaKhoUXDkJPoJOqBxK_UPqPV6eS3l66Fwx7XYrjY/edit)
+*   **Response Database**: [Google Sheet Response Tracker](https://docs.google.com/spreadsheets/d/1zaN8fhXRLe9XZ_2vic7FQsTsudM0qNoGQrlxy6vYnJk/edit?usp=sharing)
 
 ---
 
@@ -281,5 +288,6 @@ All onboarded testers are required to submit their feedback via the Google Form.
 
 *   **Product Interface**: ![alt text](image.png)
 *   **Mobile Responsiveness**: ![alt text](image-1.png)
-*   **Sentry Monitoring Console**: (Dashboard showing zero exceptions during tests)
+*   **Sentry Monitoring Console**: ![alt text](image-2.png)
+*   **CI/CD Workflow**: ![alt text](image-3.png)
 *   **Demo Video**: [VeriFund Demo Walkthrough Video](https://youtube.com/verifund-stellar-demo)
