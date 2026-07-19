@@ -281,5 +281,8 @@ All onboarded testers are required to submit their feedback via the Google Form.
 
 *   **Product Interface**: ![alt text](image.png)
 *   **Mobile Responsiveness**: ![alt text](image-1.png)
-*   **Sentry Monitoring Console**: (Dashboard showing zero exceptions during tests)
+*   **Sentry Monitoring Console**: <img width="1917" height="812" alt="image" src="https://github.com/user-attachments/assets/6a9bc53a-a461-452e-bc1f-e891df569b3a" />
+*   **CI/CD Workflow**: <img width="1867" height="607" alt="image" src="https://github.com/user-attachments/assets/64baad26-d20b-423c-a46c-2ad6b69f4106" />
+
+
 *   **Demo Video**: [VeriFund Demo Walkthrough Video](https://youtube.com/verifund-stellar-demo)
