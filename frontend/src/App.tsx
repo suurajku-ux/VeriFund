@@ -38,7 +38,7 @@ function App() {
     // Auto restore session if simulated mock address exists
     const simMode = localStorage.getItem('verifund_sim_mode') === 'true';
     if (simMode) {
-      const mockAddr = localStorage.getItem('verifund_mock_address') || 'GC2BMR4SUR3PJN637T72X7M6YQDJK6V36LNZ2MHSJ7KRYA6L3XSLFCE2A';
+      const mockAddr = localStorage.getItem('verifund_mock_address') || 'GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ';
       setAddress(mockAddr);
     }
   }, [refreshTrigger]);

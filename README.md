@@ -279,7 +279,7 @@ All onboarded testers are required to submit their feedback via the Google Form.
 
 ## 10. Screenshots & Walkthrough
 
-*   **Product Interface**: (Screenshots of feed, creation form, detail view)
-*   **Mobile Responsiveness**: (Side-by-side screenshots at 375px and 768px widths)
+*   **Product Interface**: ![alt text](image.png)
+*   **Mobile Responsiveness**: ![alt text](image-1.png)
 *   **Sentry Monitoring Console**: (Dashboard showing zero exceptions during tests)
 *   **Demo Video**: [VeriFund Demo Walkthrough Video](https://youtube.com/verifund-stellar-demo)

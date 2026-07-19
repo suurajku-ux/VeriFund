@@ -97,9 +97,9 @@ const seedSimulationDB = () => {
   ];
 
   const sampleContributions: Contribution[] = [
-    { campaignId: 1, backer: 'GC2BMR4SUR3PJN637T72X7M6YQDJK6V36LNZ2MHSJ7KRYA6L3XSLFCE2A', amount: 600, refunded: false },
-    { campaignId: 1, backer: 'GDH6N2R7RHY4HYGJKMNDRTY5A6LNZ2MHSJ7KRYA6L3XSLFCE2B', amount: 400, refunded: false },
-    { campaignId: 2, backer: 'GC2BMR4SUR3PJN637T72X7M6YQDJK6V36LNZ2MHSJ7KRYA6L3XSLFCE2A', amount: 1200, refunded: false }
+    { campaignId: 1, backer: 'GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ', amount: 600, refunded: false },
+    { campaignId: 1, backer: 'GB6N5WQFY75W6X4P2FMENQV3MYGEKMQEBRHWWQIIQCOSJMVXI4LLQ747', amount: 400, refunded: false },
+    { campaignId: 2, backer: 'GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ', amount: 1200, refunded: false }
   ];
 
   localStorage.setItem('verifund_campaigns', JSON.stringify(sampleCampaigns));
@@ -265,7 +265,7 @@ export const StellarService = {
     if (getUseSimulation()) {
       let mockAddr = localStorage.getItem('verifund_mock_address');
       if (!mockAddr) {
-        mockAddr = 'GC2BMR4SUR3PJN637T72X7M6YQDJK6V36LNZ2MHSJ7KRYA6L3XSLFCE2A';
+        mockAddr = 'GCHHHKNWLK6KGAVIQD5UEZ3NDLGF4POQVABLL2M3WUR5GVGKOQIECKUQ';
         localStorage.setItem('verifund_mock_address', mockAddr);
       }
       return mockAddr;
