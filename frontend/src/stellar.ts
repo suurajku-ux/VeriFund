@@ -221,7 +221,7 @@ async function submitSorobanTransaction(funcName: string, args: StellarSdk.xdr.S
 
   // Request Freighter Signature
   const xdr = assembledTx.toXDR();
-  const signResult = await signTransaction(xdr, { network: 'TESTNET' } as any) as any;
+  const signResult = await signTransaction(xdr, { networkPassphrase: StellarSdk.Networks.TESTNET }) as any;
   const signedXDR = signResult.signedTxXdr || signResult;
   const signedTx = StellarSdk.TransactionBuilder.fromXDR(signedXDR, StellarSdk.Networks.TESTNET);
 
